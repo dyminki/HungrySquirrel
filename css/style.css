@@ -39,6 +39,7 @@ strong {
   display: inline-block;
   font-size: 40px;
   padding: 0 15px;
+  border-radius: 24px;
   background-color: #53615de8;
 }
 
