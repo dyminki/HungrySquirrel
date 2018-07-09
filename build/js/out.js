@@ -154,11 +154,13 @@ document.addEventListener("DOMContentLoaded", function () {
         this.gameOver = function () {
             if (this.squirrel.x < 0 || this.squirrel.x > 9 || this.squirrel.y < 0 || this.squirrel.y > 9) {
                 var pos = this.index(this.walnut.x, this.walnut.y);
+                var counter = document.querySelector('#score strong');
                 clearInterval(this.idsetInteval);
                 this.hideVisibleSquirrel();
                 this.board[pos].classList.remove("walnut");
                 board.classList.add('invisible');
                 document.getElementById('over').classList.remove("invisible");
+
                 return true;
             }
             return false;
