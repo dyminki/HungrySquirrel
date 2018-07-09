@@ -24,7 +24,7 @@ section#score {
 }
 
 #board  > div { 
-  background-color: rgba(72, 78, 75, 0.92);
+  background-color: rgba(61, 62, 61, 0.86);
   float: left;
   width: 64px;
   height: 64px;
