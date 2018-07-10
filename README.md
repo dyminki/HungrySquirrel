@@ -7,7 +7,7 @@ Simple game.
 - JAVASCRIPT
 - Webpack
 
-### **PNGs by me**
+### **SVGs by me**
 
 [Live DEMO](https://dyminki.github.io/HungrySquirrel/)
 

@@ -158,7 +158,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 clearInterval(this.idsetInteval);
                 this.hideVisibleSquirrel();
                 this.board[pos].classList.remove("walnut");
-                board.classList.add('invisible');
+                document.getElementsByClassName('bg')[0].classList.add('invisible');
                 document.getElementById('over').classList.remove("invisible");
 
                 return true;

@@ -80,6 +80,7 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         }
 
+       
         this.gameOver = function (){
             if(this.squirrel.x < 0 || this.squirrel.x > 9 || this.squirrel.y < 0 || this.squirrel.y > 9){
                 let pos = this.index(this.walnut.x,this.walnut.y);
@@ -87,7 +88,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 clearInterval(this.idsetInteval);
                 this.hideVisibleSquirrel();
                 this.board[pos].classList.remove("walnut");
-                board.classList.add('invisible');
+                document.getElementsByClassName('bg')[0].classList.add('invisible');
                 document.getElementById('over').classList.remove("invisible");
                 
                 return true;
