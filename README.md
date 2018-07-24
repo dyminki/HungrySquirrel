@@ -11,6 +11,6 @@ Simple game of collecting randomly appearing walnuts.
 
 [Live DEMO](https://dyminki.github.io/HungrySquirrel/)
 
-### Screenshoot
+# Screenshoot
 
 ![Image](https://github.com/dyminki/HungrySquirrel/blob/master/inf.jpg)
