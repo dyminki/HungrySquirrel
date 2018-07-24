@@ -1,13 +1,13 @@
 # HungrySquirrel
-Simple game.
+Simple game of collecting randomly appearing walnuts.
 
-### **Build with**
+# Technologies used
 - HTML
 - CSS
-- JAVASCRIPT
+- JavaScript
 - Webpack
 
-### **SVGs by me**
+## SVGs by me
 
 [Live DEMO](https://dyminki.github.io/HungrySquirrel/)
 
