@@ -4,6 +4,8 @@
   padding: 0;
 }
 :root {
+  width:100%;
+  height: 100%;
   background-color: #9e9e9e;
   color: #474747;
   font-family: "Indie Flower", sans-serif;
@@ -79,8 +81,26 @@ section#over {
   display: block;
   font-size: 120px;
   padding: 50px;
+  padding-bottom: 0;
 }
 
 .invisible {
   display: none;
+}
+
+.start {
+  background-color: grey;
+  border: none;
+  border-radius: 11px;
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  color: lightgray;
+  font-family: "Indie Flower", sans-serif;
+  cursor: pointer;
+  transition: 0.5s all ease;
+}
+.start:hover {
+  -webkit-box-shadow: 2px 2px 25px -3px rgba(0,0,0,0.75);
+  -moz-box-shadow: 2px 2px 25px -3px rgba(0,0,0,0.75);
+  box-shadow: 2px 2px 25px -3px rgba(0,0,0,0.75);
 }

@@ -2,11 +2,12 @@
 
 var path = require('path');
 var webpack = require('webpack');
-var ExtractTextPlugin = require("extract-text-webpack-plugin");
+var ExtractTextPlugin = require("mini-css-extract-plugin");
 
 require('es6-promise').polyfill();
 
 module.exports = {
+    mode: 'development',
     entry : {
         'js/out.js': './js/app.js'
     },
@@ -27,7 +28,7 @@ module.exports = {
     ],
 
     module: {
-        loaders: [
+        rules: [
             {
                 test: /\.jsx?$/,  exclude: /node_modules/,
                 loader: 'babel-loader',

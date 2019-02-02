@@ -1,5 +1,5 @@
 # HungrySquirrel
-Simple game of collecting randomly appearing walnuts.
+Simple game of collecting randomly appearing walnuts. For navigation use keyboard. Only on PC.
 
 # Technologies used
 - HTML
