@@ -31,7 +31,7 @@ section#score {
 .bg {
   width: 665px;
   height: 665px;
-  margin: -26px auto;
+  margin: 0 auto;
   background-image: url(../images/bg.svg);
   background-repeat: no-repeat;
   background-size: contain;
