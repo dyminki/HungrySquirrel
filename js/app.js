@@ -80,7 +80,6 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         }
 
-       
         this.gameOver = function (){
             if(this.squirrel.x < 0 || this.squirrel.x > 9 || this.squirrel.y < 0 || this.squirrel.y > 9){
                 let pos = this.index(this.walnut.x,this.walnut.y);
