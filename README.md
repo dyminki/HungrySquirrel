@@ -14,4 +14,4 @@ Simple game of collecting randomly appearing walnuts. For navigation use keyboar
 
 # Screenshoot
 
-![Image](https://github.com/dyminki/HungrySquirrel/blob/master/inf.jpg)
+![Image](https://github.com/dyminki/HungrySquirrel/blob/master/inf.png)

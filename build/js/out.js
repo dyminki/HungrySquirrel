@@ -208,6 +208,7 @@ document.addEventListener("DOMContentLoaded", function () {
     document.addEventListener('keydown', function (event) {
         game.turnSquirrel(event);
     });
+
     document.getElementsByClassName('start')[0].addEventListener('click', function () {
         window.location.reload();
     });

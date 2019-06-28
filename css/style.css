@@ -8,21 +8,30 @@
   height: 100%;
   background-color: #9e9e9e;
   color: #474747;
-  font-family: "Indie Flower", sans-serif;
+  font-family: 'Covered By Your Grace', cursive, Arial, sans-serif;
 }
 
 body {
   margin: 0;
   padding: 0;
+  
 }
 
 section#score {
   width: 100%;
 }
+
+.title {
+  width: 523px;
+  margin: 0 auto -13px auto;
+  background-image: url(../images/title.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 .bg {
   width: 665px;
   height: 665px;
-  margin: 1em auto;
+  margin: -26px auto;
   background-image: url(../images/bg.svg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -41,13 +50,14 @@ section#score {
 }
 
 section#score div {
-  text-align: center;
+  text-align: right;
+  padding-right: 60px;
   font-size: 60px;
 }
 strong {
   display: inline-block;
   font-size: 60px;
-  padding: 0 15px;
+  padding-top: 14px;
 }
 
 .squirrel {
@@ -93,9 +103,9 @@ section#over {
   border: none;
   border-radius: 11px;
   padding: 1rem 2rem;
-  font-size: 2rem;
+  font-size: 4rem;
+  font-family: 'Covered By Your Grace', cursive, Arial, sans-serif;
   color: lightgray;
-  font-family: "Indie Flower", sans-serif;
   cursor: pointer;
   transition: 0.5s all ease;
 }
