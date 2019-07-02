@@ -1,5 +1,7 @@
 # HungrySquirrel
-Simple game of collecting randomly appearing walnuts. For navigation use keyboard. Only on PC.
+Simple game of collecting randomly appearing walnuts. For navigation use keyboard. Only on PC.  
+
+[Live DEMO](https://dyminki.github.io/HungrySquirrel/)
 
 # Technologies used
 - HTML
@@ -9,8 +11,6 @@ Simple game of collecting randomly appearing walnuts. For navigation use keyboar
 
 ## SVGs
 - by me
-
-[Live DEMO](https://dyminki.github.io/HungrySquirrel/)
 
 # Screenshoot
 
