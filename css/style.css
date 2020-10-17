@@ -6,7 +6,7 @@
 :root {
   width:100%;
   height: 100%;
-  background-color: #9e9e9e;
+  background-color: #96A094;
   color: #474747;
   font-family: 'Covered By Your Grace', Helvetica, sans-serif;
 }
@@ -99,7 +99,7 @@ section#over {
 }
 
 .start {
-  background-color: grey;
+  background-color: #484848;
   border: none;
   border-radius: 11px;
   padding: 1rem 2rem;
